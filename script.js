@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const startAutoPlay = () => {
-    intervalId = setInterval(nextSlide,1000);
+    intervalId = setInterval(nextSlide, 2500);
   };
 
   const stopAutoPlay = () => {
